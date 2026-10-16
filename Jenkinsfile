@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('clone') {
             steps {
-              git 'https://github.com/ashokitschool/maven-web-app.git'
+              git 'https://https://github.com/charankmar66/k8s-deployment2'
             }
         }
         stage('build'){
